@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1), rgb(255, 255, 255, 1)), url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ul{
+
+    list-style: none;
+    margin-right: 10%;
+}
+.navi{
+    display: inline-block;
+    color: white;
+    margin-right: 30px;
+    border: 1px solid rgb(97, 97, 255);
+ 
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navi:hover{
+    box-shadow: rgb(0, 255, 0) 0px 0px 10px 10px;
+    background-color: rgba(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: 500ms;
+}
+
+.logo{
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.mbdy{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+button{
+    width: 50%;
+    height: 10%;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    border:1px solid rgb(97, 97, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    outline: none;
+    border-radius: 30px;
+    
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: blue 0px 0px 10px 10px;
+    background-color: rgba(255, 255, 255);
+    color: blue;
+    transition: 500ms;
+}
+
+h1{
+    margin-left: 10%;
+    margin-top: 20px;
+    color: rgb(97, 97, 255);
+}
+
+.qut{
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 13%;
+    margin-top: 20px;
+    color:black;
+    font-size: 20px;
+    font-weight: bolder;
+    
+    
+}
+
+.tag{
+    height: 60%;
+    width: 20%;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid rgb(97, 97, 255);
+    backdrop-filter: blur(20px);
+    font-size: 18px;
+    color: black;
+    font-weight: 20px;
+    text-align: center;
+    
+}
+
+.cardp{
+    height: 80%;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+a{  
+    display: inline-block;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(0, 255, 0); 
+}
+.logoin{
+    border: 2PX SOLID GREEN;
+}

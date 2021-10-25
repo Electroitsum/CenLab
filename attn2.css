@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    border-bottom:none;
+    box-shadow: 0px 5px 10px gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+ul{
+
+    list-style: none;
+    margin-right: 10%;
+}
+.navi{
+    display: inline-block;
+    color: white;
+    margin-right: 30px;
+ 
+ 
+    border-radius: 20px;
+    background-color: black;
+}
+.navi:hover{
+    box-shadow: blue 0px 0px 10px 10px;
+    background-color: rgba(255, 255, 255);
+    color: blue;
+    transition: 500ms;
+}
+
+.logo{
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    border-radius: 10px;
+}
+
+a{  
+    display: inline-block;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: blue; 
+}
+
+.sum{
+    background-color: green;
+}
+
+.sumdark{
+    background-color: gray;
+    color: white;
+    box-shadow: none;
+}
+
+.btn2{
+    float: right;
+    position: sticky;
+    display: block;
+    width: 20px;
+    height: 30px;
+    font-size: 0px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+}
+.btn2:hover{
+    
+    width: 100px;
+    font-size: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+    transition-timing-function: ease-in-out;
+    transition: 500ms;
+}
+.mcon{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.crcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.btncon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 20px;
+}
+
+.card{
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+    width: 35%;
+    border: 1px solid gray;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    overflow:auto;
+}
+
+.arbtn{
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.can_name{
+    font-size: 20px;
+}
+.idm{
+    
+    height: 70px;
+    border-radius: 10px;
+    
+}
+.fp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin: 3%;
+}
+.sp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.add_frm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    visibility: hidden;
+
+}
+.add_frm1{
+    
+    visibility: visible;
+}
+
+.frmain{
+    display: inline-block;
+    height: 500px;
+    width: 35%;
+    z-index: 20;
+    border-radius: 30px;
+    background-color: rgb(253, 160, 127);
+}
+.frmin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 80%;
+    /* border-bottom: 1px solid gray; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+input{
+
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+}
+label{
+    width: 20%;
+    color: white;
+    font-size: 20px;
+}
+.frminbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+
+}
+.subb{
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.back{
+    display: flex;
+    position: absolute;
+    z-index: 8;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3);
+    visibility: hidden;
+    
+}
+
+.back1{
+    visibility: visible;
+}
+
+.rfrm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    visibility: hidden;
+}
+
+.rfrm1{
+    visibility: visible;
+}
+
+.rmbutn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.frmain_rm{
+    display: inline-block;
+    height: 300px;
+    width: 35%;
+    z-index: 20;
+    border-radius: 30px;
+    background-color: rgb(253, 160, 127);
+}
